@@ -1,0 +1,110 @@
+{
+  "id": "money",
+  "title": "Money & percentages",
+  "subtitle": "Practical money maths for offers, savings, tax, travel and budgets.",
+  "curriculumLinks": [
+    "Module 1: budgeting and value for money",
+    "Module 3: personal finance",
+    "Module 4: income, expenditure and wages",
+    "MCS.2: percentages, ratio and proportion"
+  ],
+  "examContexts": [
+    "sale discounts",
+    "saving a fixed amount per week",
+    "booking fees as a percentage",
+    "currency exchange",
+    "tax credits and deductions"
+  ],
+  "rules": [
+    {
+      "title": "Find a percentage of an amount",
+      "explanation": "Change the percentage to a decimal, then multiply by the full amount.",
+      "formula": "percentage amount = amount x percentage / 100",
+      "steps": [
+        "Write the percentage over 100.",
+        "Multiply by the full amount.",
+        "Add units such as EUR, kg or cm if needed."
+      ],
+      "examples": [
+        {
+          "question": "Find 20% of EUR 85.",
+          "working": "85 x 20 / 100 = 17.",
+          "answer": "EUR 17"
+        }
+      ]
+    },
+    {
+      "title": "Discount means take away",
+      "explanation": "A discount lowers the price. Find the discount amount first, then subtract it from the original price.",
+      "formula": "sale price = original price - discount",
+      "steps": [
+        "Find the percentage discount.",
+        "Subtract the discount from the original price.",
+        "Check the sale price is smaller than the original price."
+      ],
+      "examples": [
+        {
+          "question": "A hoodie costs EUR 60 and has 25% off.",
+          "working": "25% of 60 is 15. 60 - 15 = 45.",
+          "answer": "EUR 45"
+        }
+      ]
+    },
+    {
+      "title": "Weekly saving is division",
+      "explanation": "If the same amount is saved each week, divide the target by the weekly saving. If there is a remainder, one extra week is needed.",
+      "formula": "weeks = target / amount saved each week",
+      "steps": [
+        "Divide the full cost by the weekly saving.",
+        "If the answer is not a whole number, round up to the next week.",
+        "Check by multiplying weeks by weekly saving."
+      ],
+      "examples": [
+        {
+          "question": "A game costs EUR 92. You save EUR 10 each week.",
+          "working": "92 / 10 = 9.2, so you need 10 weeks.",
+          "answer": "10 weeks"
+        }
+      ]
+    },
+    {
+      "title": "Exchange rates multiply or divide",
+      "explanation": "Read the rate carefully. If EUR 1 equals dollars, multiply euro by the rate to change euro into dollars.",
+      "formula": "dollars = euro x dollar rate",
+      "steps": [
+        "Write down what EUR 1 is worth.",
+        "Multiply if changing euro into the other currency.",
+        "Divide if changing the other currency back into euro."
+      ],
+      "examples": [
+        {
+          "question": "A flight costs EUR 300. EUR 1 = $1.08.",
+          "working": "300 x 1.08 = 324.",
+          "answer": "$324"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "saving-weeks",
+      "title": "Savings target",
+      "level": "warm-up"
+    },
+    {
+      "id": "discount-price",
+      "title": "Sale price",
+      "level": "core"
+    },
+    {
+      "id": "booking-percent",
+      "title": "Fee percentage",
+      "level": "exam"
+    },
+    {
+      "id": "exchange-rate",
+      "title": "Currency trip",
+      "level": "exam"
+    }
+  ]
+}

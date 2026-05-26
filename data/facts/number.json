@@ -1,0 +1,109 @@
+{
+  "id": "number",
+  "title": "Number skills",
+  "subtitle": "The core skills used in every LCA Mathematical Applications question.",
+  "curriculumLinks": [
+    "MCS.2: calculations with positive and negative numbers",
+    "MCS.2: order of operations and brackets",
+    "MCS.2: rounding and required accuracy",
+    "MCS.2: convert between fractions, decimals and percentages"
+  ],
+  "examContexts": [
+    "booking fees as percentages",
+    "rounding money or measurements",
+    "calculator checks",
+    "fractions, decimals and percentages in offers"
+  ],
+  "rules": [
+    {
+      "title": "Use BIDMAS for mixed calculations",
+      "explanation": "When a calculation has different operations, do brackets first, then powers or roots, then division and multiplication from left to right, then addition and subtraction from left to right.",
+      "formula": "Brackets -> Indices -> Division/Multiplication -> Addition/Subtraction",
+      "steps": [
+        "Underline any brackets.",
+        "Work out multiplication and division before adding or subtracting.",
+        "Write one line of working after each step."
+      ],
+      "examples": [
+        {
+          "question": "Work out 6 + 4 x 3.",
+          "working": "4 x 3 = 12, then 6 + 12 = 18.",
+          "answer": "18"
+        }
+      ]
+    },
+    {
+      "title": "Round only at the end",
+      "explanation": "If a question asks for an answer to the nearest whole number, one decimal place, or two decimal places, keep the full calculator answer until the last line.",
+      "formula": "Look one digit past the place you need",
+      "steps": [
+        "Find the place value the question asks for.",
+        "Look at the next digit.",
+        "If the next digit is 5 or more, round up. If it is 4 or less, keep it."
+      ],
+      "examples": [
+        {
+          "question": "Round 18.756 to two decimal places.",
+          "working": "Two decimal places gives 18.75. The next digit is 6, so round up.",
+          "answer": "18.76"
+        }
+      ]
+    },
+    {
+      "title": "Percent means out of 100",
+      "explanation": "A percentage is a part out of 100. This helps when moving between percentages, decimals and fractions.",
+      "formula": "percentage / 100 = decimal",
+      "steps": [
+        "To change a percentage to a decimal, divide by 100.",
+        "To change a decimal to a percentage, multiply by 100.",
+        "Use common facts: 1/2 = 50%, 1/4 = 25%, 3/4 = 75%."
+      ],
+      "examples": [
+        {
+          "question": "Change 0.35 to a percentage.",
+          "working": "0.35 x 100 = 35.",
+          "answer": "35%"
+        }
+      ]
+    },
+    {
+      "title": "Check if an answer is sensible",
+      "explanation": "A fast estimate helps catch calculator mistakes. Round the numbers to easy values and compare your estimate with the exact answer.",
+      "formula": "estimate first, exact answer second",
+      "steps": [
+        "Round the numbers to easy values.",
+        "Do the mental calculation.",
+        "If the calculator answer is far away, check the question again."
+      ],
+      "examples": [
+        {
+          "question": "Estimate 19.8 x 5.1.",
+          "working": "19.8 is about 20 and 5.1 is about 5. 20 x 5 = 100.",
+          "answer": "The exact answer should be close to 100."
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "order-ops",
+      "title": "BIDMAS check",
+      "level": "warm-up"
+    },
+    {
+      "id": "rounding",
+      "title": "Rounding sprint",
+      "level": "core"
+    },
+    {
+      "id": "percent-convert",
+      "title": "Percent memory",
+      "level": "core"
+    },
+    {
+      "id": "negative-change",
+      "title": "Temperature change",
+      "level": "exam"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "measurement",
+  "title": "Measurement & shape",
+  "subtitle": "Area, volume, units and scale questions from real-life contexts.",
+  "curriculumLinks": [
+    "MCS.2: convert between units",
+    "MCS.3: area and perimeter of 2D shapes",
+    "MCS.3: volume and surface area of 3D shapes",
+    "MCS.3: scaled diagrams and models"
+  ],
+  "examContexts": [
+    "box volume",
+    "rainfall in a cylinder",
+    "stage screen area",
+    "flooring packs and wastage",
+    "scale model lengths"
+  ],
+  "rules": [
+    {
+      "title": "Area measures flat space",
+      "explanation": "Area is the amount of surface covered. A rectangle uses length times width. A circle uses pi times radius squared.",
+      "formula": "rectangle area = length x width; circle area = pi x r x r",
+      "steps": [
+        "Check all measurements use the same unit.",
+        "Choose the right formula.",
+        "Write square units such as m2 or cm2."
+      ],
+      "examples": [
+        {
+          "question": "A bedroom floor is 6 m long and 4 m wide.",
+          "working": "6 x 4 = 24.",
+          "answer": "24 m2"
+        }
+      ]
+    },
+    {
+      "title": "Volume measures space inside",
+      "explanation": "Volume is used for boxes, tanks and containers. A rectangular solid uses length times width times height.",
+      "formula": "cuboid volume = length x width x height",
+      "steps": [
+        "Check the shape.",
+        "Multiply the three dimensions.",
+        "Write cubic units such as cm3 or m3."
+      ],
+      "examples": [
+        {
+          "question": "A box is 10 cm by 5 cm by 4 cm.",
+          "working": "10 x 5 x 4 = 200.",
+          "answer": "200 cm3"
+        }
+      ]
+    },
+    {
+      "title": "Cylinder volume uses the circular base",
+      "explanation": "A cylinder is like a circle stretched upwards. Find the area of the circle, then multiply by height.",
+      "formula": "cylinder volume = pi x r x r x h",
+      "steps": [
+        "Use the radius, not the diameter.",
+        "Multiply pi by radius by radius by height.",
+        "Divide by 1000 to change cm3 into litres."
+      ],
+      "examples": [
+        {
+          "question": "A cylinder has radius 5 cm and height 10 cm.",
+          "working": "pi x 5 x 5 x 10 = 785.4 cm3.",
+          "answer": "0.8 litres to 1 decimal place"
+        }
+      ]
+    },
+    {
+      "title": "Scale connects model and real size",
+      "explanation": "A scale such as 1:12 means 1 unit on the model represents 12 of the same units in real life.",
+      "formula": "real length = model length x scale factor",
+      "steps": [
+        "Find the scale factor.",
+        "Multiply model size by the scale factor for real size.",
+        "Convert units if the answer needs metres or kilometres."
+      ],
+      "examples": [
+        {
+          "question": "A model car is 35 cm long at a scale of 1:12.",
+          "working": "35 x 12 = 420 cm = 4.2 m.",
+          "answer": "4.2 m"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "cuboid-volume",
+      "title": "Box volume",
+      "level": "warm-up"
+    },
+    {
+      "id": "cylinder-litres",
+      "title": "Rainfall container",
+      "level": "exam"
+    },
+    {
+      "id": "circle-area",
+      "title": "Circular screen",
+      "level": "core"
+    },
+    {
+      "id": "flooring-packs",
+      "title": "Floor packs",
+      "level": "exam"
+    },
+    {
+      "id": "scale-model",
+      "title": "Scale model",
+      "level": "core"
+    }
+  ]
+}

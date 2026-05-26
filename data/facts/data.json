@@ -1,0 +1,115 @@
+{
+  "id": "data",
+  "title": "Data & statistics",
+  "subtitle": "Read tables, find averages, notice odd values and explain what the numbers mean.",
+  "curriculumLinks": [
+    "MCS.5: select and draw appropriate displays",
+    "MCS.5: calculate mean, median, mode and range",
+    "MCS.5: discuss misconceptions and misuse of statistics",
+    "MCS.1: interpret and justify solutions"
+  ],
+  "examContexts": [
+    "weather tables",
+    "temperature mistakes",
+    "survey data",
+    "trend graphs",
+    "choosing the best average"
+  ],
+  "rules": [
+    {
+      "title": "Mean is the balancing average",
+      "explanation": "Add all the values and divide by how many values there are. The mean can be pulled up or down by one very unusual value.",
+      "formula": "mean = total / number of values",
+      "steps": [
+        "Add the values.",
+        "Count how many values there are.",
+        "Divide the total by the count."
+      ],
+      "examples": [
+        {
+          "question": "Find the mean of 6, 7, 8 and 9.",
+          "working": "6 + 7 + 8 + 9 = 30. 30 / 4 = 7.5.",
+          "answer": "7.5"
+        }
+      ]
+    },
+    {
+      "title": "Median is the middle value",
+      "explanation": "Put the values in order. The median is the middle value. If there are two middle values, add them and divide by 2.",
+      "formula": "ordered middle value",
+      "steps": [
+        "Write the values from smallest to biggest.",
+        "Cross off one at each end until the middle is left.",
+        "For two middle values, find their mean."
+      ],
+      "examples": [
+        {
+          "question": "Find the median of 7, 6, 9, 6, 8.",
+          "working": "In order: 6, 6, 7, 8, 9. The middle is 7.",
+          "answer": "7"
+        }
+      ]
+    },
+    {
+      "title": "Range shows the spread",
+      "explanation": "The range tells you how far apart the biggest and smallest values are.",
+      "formula": "range = biggest value - smallest value",
+      "steps": [
+        "Find the highest value.",
+        "Find the lowest value.",
+        "Subtract the lowest from the highest."
+      ],
+      "examples": [
+        {
+          "question": "Find the range of 5, 12, 8 and 9.",
+          "working": "12 - 5 = 7.",
+          "answer": "7"
+        }
+      ]
+    },
+    {
+      "title": "An outlier is unusual",
+      "explanation": "An outlier is a value that does not fit the pattern. It may be a real result or it may be a recording mistake.",
+      "formula": "look for the value far away from the rest",
+      "steps": [
+        "Look at the values in order.",
+        "Find any value far away from the others.",
+        "Explain why it might be unusual in the context."
+      ],
+      "examples": [
+        {
+          "question": "Temperatures are 6, 7, 6, 50, 8, 7.",
+          "working": "50 is far away from the other temperatures.",
+          "answer": "50 is likely to be a mistake or a different unit."
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "mean-weather",
+      "title": "Mean weather",
+      "level": "core"
+    },
+    {
+      "id": "median-weather",
+      "title": "Median check",
+      "level": "warm-up"
+    },
+    {
+      "id": "range-values",
+      "title": "Range sprint",
+      "level": "warm-up"
+    },
+    {
+      "id": "outlier-value",
+      "title": "Spot the outlier",
+      "level": "exam"
+    },
+    {
+      "id": "fahrenheit-celsius",
+      "title": "Temperature conversion",
+      "level": "exam"
+    }
+  ]
+}

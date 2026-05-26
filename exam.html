@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exam Practice | LCA Maths Practice</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/question-generators.js"></script>
+    <script defer src="js/embedded-data.js"></script>
+    <script defer src="js/exam.js"></script>
+  </head>
+  <body data-page="exam">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="index.html" aria-label="LCA Maths Practice home">
+          <span class="brand-mark">LCA</span>
+          <span>LCA Maths Practice</span>
+        </a>
+        <nav class="topic-nav" aria-label="Topics">
+          <a href="number.html">Number skills</a>
+          <a href="money.html">Money & percentages</a>
+          <a href="measurement.html">Measurement & shape</a>
+          <a href="data.html">Data & statistics</a>
+          <a href="relationships.html">Tables & graphs</a>
+          <a href="time-work.html">Time, work & payslips</a>
+        </nav>
+        <a class="exam-link is-active" href="exam.html">Exam practice</a>
+      </aside>
+      <main class="main-panel exam-main">
+        <header class="topbar">
+          <div>
+            <p class="page-label">Exam sample page</p>
+            <h1>Practice paper builder</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="button ghost" id="newPaperBtn" type="button">New version</button>
+            <button class="button primary" id="printBtn" type="button">Print Exam Set</button>
+          </div>
+        </header>
+
+        <section class="exam-intro">
+          <div>
+            <h2>Interactive mode</h2>
+            <p>
+              Every question below is generated from a question type in the JSON bank.
+              Use new versions for repeated practice.
+            </p>
+          </div>
+          <div class="score-tile">
+            <span id="scoreValue">0 / 0</span>
+            <small>checked so far</small>
+          </div>
+        </section>
+
+        <section class="exam-toolbar" aria-label="Exam controls">
+          <label>
+            Level
+            <select id="paperLevel">
+              <option value="core">Core</option>
+              <option value="supported">Supported</option>
+              <option value="challenge">Challenge</option>
+            </select>
+          </label>
+          <label>
+            Question mix
+            <select id="paperMix">
+              <option value="balanced">Balanced paper</option>
+              <option value="money">Money-heavy</option>
+              <option value="measurement">Measurement-heavy</option>
+              <option value="work">Work and payslips</option>
+            </select>
+          </label>
+          <label class="answer-toggle">
+            <input type="checkbox" id="showAnswers">
+            Show answers
+          </label>
+        </section>
+
+        <section id="paper" class="paper" aria-live="polite"></section>
+      </main>
+    </div>
+  </body>
+</html>

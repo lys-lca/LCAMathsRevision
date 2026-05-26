@@ -1,0 +1,115 @@
+{
+  "id": "time-work",
+  "title": "Time, work & payslips",
+  "subtitle": "Timings, wages, invoices, deductions and workplace calculations.",
+  "curriculumLinks": [
+    "Module 2: travel, recreation and timings",
+    "Module 4: income, expenditure, wages, holidays and contracts",
+    "MCS.2: convert between units of time",
+    "MCS.1: communicate findings in context"
+  ],
+  "examContexts": [
+    "total build time in hours and minutes",
+    "apprenticeship weeks and months",
+    "flooring installation invoice",
+    "gross tax, tax credit, deductions and net pay",
+    "hourly pay"
+  ],
+  "rules": [
+    {
+      "title": "Convert minutes to hours and minutes",
+      "explanation": "There are 60 minutes in 1 hour. Divide by 60 to find hours, and the remainder is the minutes left over.",
+      "formula": "total minutes = 60 x hours + minutes",
+      "steps": [
+        "Add all minutes first.",
+        "Divide by 60.",
+        "The whole number is hours and the remainder is minutes."
+      ],
+      "examples": [
+        {
+          "question": "Change 175 minutes to hours and minutes.",
+          "working": "175 / 60 = 2 remainder 55.",
+          "answer": "2 hours 55 minutes"
+        }
+      ]
+    },
+    {
+      "title": "Invoices are item totals added together",
+      "explanation": "Multiply quantity by price for each line, then add all lines for the final total.",
+      "formula": "invoice total = item 1 + item 2 + labour + charges",
+      "steps": [
+        "Find each line total.",
+        "Add the line totals.",
+        "Check the final answer is in EUR."
+      ],
+      "examples": [
+        {
+          "question": "Two rolls cost EUR 75 each and labour is 5 hours at EUR 50.",
+          "working": "Underlay: 2 x 75 = 150. Labour: 5 x 50 = 250.",
+          "answer": "EUR 400 before other items"
+        }
+      ]
+    },
+    {
+      "title": "Net pay is what is left",
+      "explanation": "Gross pay is before deductions. Net pay is gross pay minus tax, PRSI, USC and any other deductions.",
+      "formula": "net pay = gross pay - total deductions",
+      "steps": [
+        "Find gross tax if needed.",
+        "Subtract tax credits to get net tax.",
+        "Add all deductions and subtract them from gross pay."
+      ],
+      "examples": [
+        {
+          "question": "Gross pay is EUR 420. Deductions are EUR 60.",
+          "working": "420 - 60 = 360.",
+          "answer": "Net pay is EUR 360"
+        }
+      ]
+    },
+    {
+      "title": "Weeks and months are approximate",
+      "explanation": "Some exam questions use 4.3 weeks in a month. Divide weeks by 4.3 to change weeks into months.",
+      "formula": "months = weeks / 4.3",
+      "steps": [
+        "Add the weeks.",
+        "Divide by 4.3.",
+        "Round as asked in the question."
+      ],
+      "examples": [
+        {
+          "question": "Change 44 weeks into months using 4.3 weeks per month.",
+          "working": "44 / 4.3 = 10.23.",
+          "answer": "10 months to the nearest whole month"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "time-total",
+      "title": "Hours and minutes",
+      "level": "warm-up"
+    },
+    {
+      "id": "invoice-total",
+      "title": "Invoice builder",
+      "level": "core"
+    },
+    {
+      "id": "payslip-net",
+      "title": "Payslip check",
+      "level": "exam"
+    },
+    {
+      "id": "weeks-months",
+      "title": "Apprenticeship time",
+      "level": "exam"
+    },
+    {
+      "id": "hourly-pay",
+      "title": "Hourly pay",
+      "level": "core"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "number",
+    "title": "Number skills",
+    "shortTitle": "Number",
+    "href": "number.html",
+    "summary": "Order of operations, rounding, accuracy, fractions, decimals and percentages.",
+    "module": "MCS.2",
+    "accent": "teal"
+  },
+  {
+    "id": "money",
+    "title": "Money & percentages",
+    "shortTitle": "Money",
+    "href": "money.html",
+    "summary": "Discounts, savings, tax, value for money, exchange rates and budgets.",
+    "module": "Planning, Life Skills, Work",
+    "accent": "yellow"
+  },
+  {
+    "id": "measurement",
+    "title": "Measurement & shape",
+    "shortTitle": "Measurement",
+    "href": "measurement.html",
+    "summary": "Units, area, volume, circles, cylinders, scale diagrams and flooring packs.",
+    "module": "MCS.3",
+    "accent": "green"
+  },
+  {
+    "id": "data",
+    "title": "Data & statistics",
+    "shortTitle": "Data",
+    "href": "data.html",
+    "summary": "Mean, median, mode, range, outliers and interpreting tables or charts.",
+    "module": "MCS.5",
+    "accent": "orange"
+  },
+  {
+    "id": "relationships",
+    "title": "Tables & graphs",
+    "shortTitle": "Graphs",
+    "href": "relationships.html",
+    "summary": "Linear patterns, tables, graph reading, rates and working backwards.",
+    "module": "MCS.4",
+    "accent": "teal"
+  },
+  {
+    "id": "time-work",
+    "title": "Time, work & payslips",
+    "shortTitle": "Work",
+    "href": "time-work.html",
+    "summary": "Time totals, weeks to months, invoices, hourly pay, deductions and net pay.",
+    "module": "Mathematics and Work",
+    "accent": "green"
+  }
+]
