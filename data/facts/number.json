@@ -14,6 +14,25 @@
     "calculator checks",
     "fractions, decimals and percentages in offers"
   ],
+  "diagrams": [
+    {
+      "type": "number-line",
+      "title": "Rounding on a number line",
+      "description": "A value past the halfway point rounds up. A value before the halfway point rounds down.",
+      "min": 18,
+      "mid": 18.5,
+      "max": 19,
+      "point": 18.76,
+      "label": "18.76 rounds to 19"
+    },
+    {
+      "type": "percent-grid",
+      "title": "Percent means out of 100",
+      "description": "The shaded squares show 35 out of 100, which is 35%.",
+      "filled": 35,
+      "label": "35%"
+    }
+  ],
   "rules": [
     {
       "title": "Use BIDMAS for mixed calculations",

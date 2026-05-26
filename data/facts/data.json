@@ -15,6 +15,29 @@
     "trend graphs",
     "choosing the best average"
   ],
+  "diagrams": [
+    {
+      "type": "bar-chart",
+      "title": "Read a bar chart",
+      "description": "Compare heights carefully and always check the scale on the axis.",
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "values": [7, 6, 8, 11, 9],
+      "unit": "degrees Celsius"
+    },
+    {
+      "type": "median-row",
+      "title": "Find the median",
+      "description": "Put the values in order, then find the middle value.",
+      "values": [6, 6, 7, 8, 9, 11, 14],
+      "highlight": 3
+    },
+    {
+      "type": "outlier-chart",
+      "title": "Spot an outlier",
+      "description": "An outlier sits far away from the main group and needs explaining.",
+      "values": [6, 7, 6, 8, 50, 7, 9]
+    }
+  ],
   "rules": [
     {
       "title": "Mean is the balancing average",

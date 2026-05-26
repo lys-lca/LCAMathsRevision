@@ -15,6 +15,25 @@
     "gross tax, tax credit, deductions and net pay",
     "hourly pay"
   ],
+  "diagrams": [
+    {
+      "type": "timeline",
+      "title": "Apprenticeship timeline",
+      "description": "Add on-the-job and off-the-job phases separately before finding the total.",
+      "phases": [
+        {"label": "Phase 1", "value": "3 months", "kind": "job"},
+        {"label": "Phase 2", "value": "22 weeks", "kind": "training"},
+        {"label": "Phase 3", "value": "6 months", "kind": "job"},
+        {"label": "Phase 4", "value": "11 weeks", "kind": "training"}
+      ]
+    },
+    {
+      "type": "payslip-flow",
+      "title": "Payslip flow",
+      "description": "Gross pay becomes net pay after tax credits and deductions are applied.",
+      "steps": ["Gross pay", "Gross tax", "Tax credits", "Net tax", "Total deductions", "Net pay"]
+    }
+  ],
   "rules": [
     {
       "title": "Convert minutes to hours and minutes",

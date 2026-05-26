@@ -15,6 +15,21 @@
     "currency exchange",
     "tax credits and deductions"
   ],
+  "diagrams": [
+    {
+      "type": "discount-bar",
+      "title": "Discount bar",
+      "description": "Find the discount part first, then subtract it from the original price.",
+      "price": 120,
+      "percent": 25
+    },
+    {
+      "type": "money-flow",
+      "title": "Money question flow",
+      "description": "Most money questions use the same three-step structure.",
+      "steps": ["Original amount", "Find the part", "Add or subtract", "Check the answer"]
+    }
+  ],
   "rules": [
     {
       "title": "Find a percentage of an amount",
